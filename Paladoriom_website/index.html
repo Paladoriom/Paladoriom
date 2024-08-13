@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa8a294594.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Paladoriom</title>
+  </head>
+  <nav>
+    <div class="left">
+      <ul class="left">
+        <li class="nav">
+          <img src="images/logo.png" alt="logo" width="70px" />
+        </li>
+        <li class="nav"><a class="links" href="#Home">Home</a></li>
+        <li class="nav">
+          <a class="links" href="#Reviews">Company Reviews</a>
+        </li>
+      </ul>
+    </div>
+    <div class="right">
+      <ul class="right">
+        <li class="nav">
+          <a class="links" style="color: rgb(75, 93, 255)" href="#sign_in"
+            >Sing in</a
+          >
+        </li>
+        <li class="nav">
+          <div id="seprator" style="border-color: rgb(145, 145, 145)"></div>
+        </li>
+        <li class="nav">
+          <a class="links" href="#EmployerPost">EmployerPost</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <body>
+    <div class="searchBar">
+      <div class="container" id="container">
+        <div class="media_box">
+          <div>
+            <a href="#search"><i class="fas fa-search"></i></a>
+            <input
+              type="search"
+              placeholder="Job title,keyword,or company"
+              name="searchBar_jobs"
+              id="searchInput"
+              class="search_input"
+            />
+          </div>
+          <div>
+            <a href="#place"
+              ><i style="margin-right: 5px" class="fa-solid fa-location-dot"></i
+            ></a>
+            <input
+              type="search"
+              placeholder="lahore"
+              name="place"
+              id="place_search"
+              class="search_input"
+            />
+          </div>
+        </div>
+        <div>
+          <button type="button" class="find_jobs">Find jobs</button>
+        </div>
+      </div>
+    </div>
+    <div id="textaftersearch">
+      <a id="textaftersearchlink">Post your CV</a>- It only takes a few seconds
+    </div>
+    <div class="iframe">
+      <ul>
+        <li><a href="Jobs.html" target="iframes_a">Jobs for you</a></li>
+        <li>
+          <a href="recentSearches.html" target="iframes_a">Recent searches</a>
+        </li>
+      </ul>
+    </div>
+    <div class="mainIframe">
+      <iframe
+        src="recentSearches.html"
+        name="iframes_a"
+        frameborder="0"
+      ></iframe>
+    </div>
+  </body>
+  <footer><div>&copy; 2024 Paladoriom</div></footer>
+  <script src="index.js"></script>
+</html>
