@@ -256,7 +256,6 @@ ul#recent_jobs_list li i {
 }
 ul#recent_jobs_list li {
   position: relative;
-  background-color: rgb(250, 250, 250);
   margin: 2px 0px;
   padding-bottom: 7px;
   border-bottom: 1px solid rgb(199, 199, 199);
