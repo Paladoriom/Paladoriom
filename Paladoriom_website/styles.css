@@ -237,6 +237,9 @@ div.searchBar div.container input:focus {
     font-weight: 500;
     text-underline-offset: 32px;
   }
+    div.iframe ul li {
+    padding: 10px 15px 15px;
+  }
 }
 ul#recent_jobs_list {
   list-style-type: none;
