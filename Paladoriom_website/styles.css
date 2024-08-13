@@ -60,9 +60,6 @@ a.links:hover {
   text-decoration-color: rgb(75, 93, 255);
   text-decoration-thickness: 2px;
 }
-img {
-  padding-bottom: 10px;
-}
 .searchBar {
   height: 100px;
 }
