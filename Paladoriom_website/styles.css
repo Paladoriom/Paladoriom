@@ -246,7 +246,7 @@ ul#recent_jobs_list li i {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 98%;
+  left: 94%;
   float: right;
   cursor: pointer;
 }
