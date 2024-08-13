@@ -120,6 +120,7 @@ div.mainIframe iframe {
 }
 div.iframe ul li {
   padding: 10px 50px 15px;
+  border-bottom: 3px solid rgba(47, 68, 255, 0);
 }
 div.iframe ul li:active {
   border-bottom: 3px solid rgb(47, 68, 255);
