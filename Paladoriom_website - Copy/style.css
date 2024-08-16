@@ -18,7 +18,17 @@ h1 {
   padding: 15px;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.247);
   width: 60%;
-  min-width: 500px;
+  min-width: 350px;
+}
+@media (max-width: 1300px) {
+  .job-entry {
+    width: 70%;
+  }
+}
+@media (max-width: 600px) {
+  .job-entry {
+    width: 100%;
+  }
 }
 .job-title {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
