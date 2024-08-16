@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#jobs_leftframe {
+  width: 100%;
+}
+#jobs_leftframediv {
+  width: 100%;
+}
