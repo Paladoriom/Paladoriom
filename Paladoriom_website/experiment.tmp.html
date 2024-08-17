@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display JSON Data</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /*
+      .job-entry {
+        margin-bottom: 20px;
+      }
+      .job-title {
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+      .job-company {
+        font-size: 1.2em;
+        color: #555;
+      }
+      .job-description {
+        margin-top: 10px;
+        font-size: 1em;
+        line-height: 1.6;
+      }
+      .job-url {
+        display: block;
+        margin-top: 10px;
+        color: blue;
+        text-decoration: underline;
+      }*/
+      body {
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="dataDisplay"></div>
+
+    <script>
+      async function fetchJSON() {
+        try {
+          const response = await fetch("Excel_Output.json");
+          const data = await response.json();
+          const jobEntries = data.Sheet1;
+
+          let htmlContent = "";
+
+          jobEntries.forEach((job) => {
+            htmlContent += `
+                        <div class="job-entry">
+                            <h2 class="job-title">${job["Job Title"]}</h2>
+                            <div class="job-company">${job.Company}</div>
+                            <div class="job-description">${job.Description.replace(
+                              /\n/g,
+                              "<br>"
+                            )}</div>
+                            <a href="${
+                              job["Job URL"]
+                            }" class="job-url" target="_blank">Apply Here</a>
+                        </div>
+                    `;
+          });
+
+          document.getElementById("dataDisplay").innerHTML = htmlContent;
+        } catch (error) {
+          console.error("Error fetching JSON:", error);
+        }
+      }
+
+      fetchJSON();
+    </script>
+  </body>
+</html>

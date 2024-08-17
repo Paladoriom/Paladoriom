@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Details</title>
+    <link rel="stylesheet" href="styles-job-details.css" />
+    <style>
+      body {
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="dataDisplay"></div>
+
+    <script>
+      async function fetchJSON() {
+        try {
+          const response = await fetch("Excel_Output.json");
+          const data = await response.json();
+          const jobEntries = data.Sheet1;
+          const urlParams = new URLSearchParams(window.location.search);
+          const index = urlParams.get("index");
+
+          if (index !== null && index >= 0 && index < jobEntries.length) {
+            const job = jobEntries[index];
+            const htmlContent = `
+                        <div class="job-entry">
+                            <h2 class="job-title">${job["Job Title"]}</h2>
+                            <div class="job-company">${job.Company}</div>
+                            <div class="job-description">${job.Description.replace(
+                              /\n/g,
+                              "<br>"
+                            )}</div>
+                            <a href="${
+                              job["Job URL"]
+                            }" class="job-url" target="_blank">Apply Here</a>
+                        </div>
+                    `;
+            document.getElementById("dataDisplay").innerHTML = htmlContent;
+          } else {
+            document.getElementById("dataDisplay").innerHTML =
+              "Job ID not provided or invalid.";
+          }
+        } catch (error) {
+          console.error("Error fetching JSON:", error);
+          document.getElementById("dataDisplay").innerHTML =
+            "Error loading job details.";
+        }
+      }
+
+      fetchJSON();
+    </script>
+  </body>
+</html>
