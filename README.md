@@ -1,16 +1,24 @@
-## Hi there 👋
+### Hi there, I'm Muhammad Rehan (Paladoriom) 👋
 
-<!--
-**Paladoriom/Paladoriom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am a **Full Stack Engineer** and **System Architect** based in Peshawar. I specialize in building high-performance web applications and bypassing complex anti-bot systems.
 
-Here are some ideas to get you started:
+🔭 **Current Work (Client Projects)**
+Most of my code is proprietary/private, but here is what I am building:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+* **TikTacToe:** A high-scale media application serving **2,000+ Monthly Active Users**.
+    * *Stack:* Next.js, Python (Flask), Custom Proxy Infrastructure.
+    * *Challenge:* Engineered a rotating proxy system to bypass aggressive IP bans.
+* **Indeed Scraper Engine:** A browser extension for automated data extraction.
+    * *Stack:* JavaScript, Chrome API.
+
+🌱 **My Tech Stack**
+* **Frontend:** Next.js, React, Tailwind CSS
+* **Backend:** Node.js, Python (Flask), PHP (CodeIgniter)
+* **Tools:** Docker, Nginx, Obsidian (for Knowledge Management)
+
+📺 **Connect With Me**
+* **YouTube:** [Paladoriom](https://www.youtube.com/@Paladoriom) (Documenting my Polymath journey)
+* **LinkedIn:** [Muhammad Rehan](https://www.linkedin.com/in/muhammad-rehan-dev/)
+* **Website:** [paladoriom.online](https://www.paladoriom.online/)
+
+📫 **Contact:** contact.paladoriom@gmail.com
