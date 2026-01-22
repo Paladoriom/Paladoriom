@@ -21,4 +21,4 @@ Most of my code is proprietary/private, but here is what I am building:
 * **LinkedIn:** [Muhammad Rehan](https://www.linkedin.com/in/paladoriom/)
 * **Website:** [paladoriom.online](https://www.paladoriom.online/)
 
-📫 **Contact:** paladoriom.com@gmail.com
+📫 **Contact:** contact.paladoriom@gmail.com
