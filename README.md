@@ -18,7 +18,7 @@ Most of my code is proprietary/private, but here is what I am building:
 
 📺 **Connect With Me**
 * **YouTube:** [Paladoriom](https://www.youtube.com/@Paladoriom) (Documenting my Polymath journey)
-* **LinkedIn:** [Muhammad Rehan](https://www.linkedin.com/in/muhammad-rehan-dev/)
+* **LinkedIn:** [Muhammad Rehan](https://www.linkedin.com/in/paladoriom/)
 * **Website:** [paladoriom.online](https://www.paladoriom.online/)
 
-📫 **Contact:** contact.paladoriom@gmail.com
+📫 **Contact:** paladoriom.com@gmail.com
