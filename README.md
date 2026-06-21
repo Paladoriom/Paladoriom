@@ -20,6 +20,7 @@ Most of my code is proprietary/private, but here is what I am building:
 
 📺 **Connect With Me**
 * **YouTube:** [Paladoriom](https://www.youtube.com/@Paladoriom) (Documenting my Polymath journey)
+* **Medium:** [Muhammad Rehan](medium.com/@paladoriom)
 * **GitHub:** [Paladoriom](https://github.com/Paladoriom)
 * **LinkedIn:** [Muhammad Rehan](https://www.linkedin.com/in/paladoriom/)
 * **X / Twitter:** [@Paladoriom_x](https://x.com/Paladoriom_x?s=09)
