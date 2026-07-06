@@ -26,7 +26,7 @@ Most of my code is proprietary/private, but here is what I am building:
 * **X / Twitter:** [@Paladoriom_x](https://x.com/Paladoriom_x?s=09)
 * **Instagram:** [@paladoriom_reels](https://instagram.com/paladoriom_reels?igshid=OGQ5ZDc2ODk2ZA==)
 * **TikTok:** [@paladoriom_tiktok](https://tiktok.com/@paladoriom_tiktok?_t=8iLBoHGu8X4&_r=1)
-* **Facebook:** [Profile](https://facebook.com/profile.php?id=61554646239398&mibextid=ZbWKwL)
-* **Likee:** [Profile](https://l.likee.video/p/PqcxMl)
+* **Facebook:** [Muhammad Rehan](https://facebook.com/profile.php?id=61554646239398&mibextid=ZbWKwL)
+* **Likee:** [Paladoriom](https://l.likee.video/p/PqcxMl)
 
 📫 **Contact:** contact@paladoriom.com
