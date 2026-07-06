@@ -29,4 +29,4 @@ Most of my code is proprietary/private, but here is what I am building:
 * **Facebook:** [Profile](https://facebook.com/profile.php?id=61554646239398&mibextid=ZbWKwL)
 * **Likee:** [Profile](https://l.likee.video/p/PqcxMl)
 
-📫 **Contact:** contact.paladoriom@gmail.com
+📫 **Contact:** contact@paladoriom.com
